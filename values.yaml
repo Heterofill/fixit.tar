@@ -1,0 +1,9 @@
+replicas: 1
+
+containers:
+  image: heterofill/fixit
+  ports:
+    containerPort: 8080
+
+service:
+  type: NodePort
